@@ -1,0 +1,61 @@
+{
+    "BatteryCapacity": 12.0,
+    "BatteryFactor": 1.0,
+    "Battery_Capacity": 6.0,
+    "Battery_Energy": 77.0,
+    "Battery_Volt": 11.63,
+    "Brightness": 107.35,
+    "CPU_Temp": 36.511,
+    "CPU_load": 0.51,
+    "Gained_Capacity": 0.9,
+    "Gained_Energy": 10.8,
+    "Humidity": 41.0,
+    "ImageName": "/home/pi/MonitorStation/img.jpg",
+    "RPI_Power": 3.022906397928657,
+    "RPi_Temp": 22.25,
+    "Temperature": 25.0,
+    "analyze data": {
+        "Last timestamp str": "2021-02-09 18:59:00",
+        "last file": "/home/pi/MonitorStation/monitor__2021-02-13_12-01-21.csv"
+    },
+    "analyze interval": 30,
+    "camera_hflip": false,
+    "camera_image_size": [
+        1024,
+        768
+    ],
+    "camera_mode": "mp4",
+    "camera_save_path": "/home/pi/MonitorStation/photo",
+    "camera_vflip": false,
+    "current factor": {
+        "outputcurrent": 0.61
+    },
+    "days": 5,
+    "last_analyze": 1613217966.609094,
+    "last_measured": 1613214361,
+    "monitor": true,
+    "monitor time interval": 1,
+    "next shutdown": {
+        "shutdown_time delta str": "5:53:54",
+        "shutdown_time str": "2021-02-13 19:00:00+01:00"
+    },
+    "next startup": {
+        "startup_time delta str": "4:53:54",
+        "startup_time str": "2021-02-13 18:00:00+01:00"
+    },
+    "not2show": [
+        "date time",
+        "time delta"
+    ],
+    "send_report": true,
+    "standby_current": 0.025,
+    "start_time": 1613214080.5890381,
+    "starttime_analyze": 1613210482.0,
+    "telegram_bot_token": "YOUR_TOKEN",
+    "telegram_chat_id": YOUR_ID,
+    "video_capture_length": 5,
+    "video_resolution": [
+        640,
+        480
+    ]
+}
