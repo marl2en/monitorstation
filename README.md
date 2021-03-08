@@ -18,3 +18,4 @@ AnalyzeData and AnalyzeLastDays are functions to calculate and estimate power co
 - in the wittypi folder (after installation of wittypi) edit asterStartup.sh and insert: 
 /home/pi/wittypi/syncTime.sh 
 /home/pi/MonitorStation/monitor.sh
+- place WittyPi.py (a python library for wittypi) into wittypi folder. Look here: https://github.com/marl2en/wittypi4python
