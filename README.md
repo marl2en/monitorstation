@@ -15,9 +15,10 @@ AnalyzeData and AnalyzeLastDays are functions to calculate and estimate power co
 - Edit config.json: your telegram token and chat_id (from your telegram app in your mobile), battery is a lead battery (12V, 12Ah), adjust battery factor, standby current to your system. 
 - WittyPi is needed because: operation 24/7 is not possible under winter time. Only one hour per day works here (Sweden). 
 - WittyPi extracts needed values (battery voltage, output voltage to RPi and current)
-- in the wittypi folder (after installation of wittypi) edit asterStartup.sh and insert: 
+- in the wittypi folder (after installation of wittypi) edit afterStartup.sh and insert: 
 /home/pi/wittypi/syncTime.sh 
 /home/pi/MonitorStation/monitor.sh
 - place WittyPi.py (a python library for wittypi) into wittypi folder. Look here: https://github.com/marl2en/wittypi4python
+- 
 ![IMG_6013](https://user-images.githubusercontent.com/74545075/110316453-0c0b6100-800b-11eb-89da-db5f9a44bfba.jpg)
 
