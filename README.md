@@ -19,6 +19,15 @@ AnalyzeData and AnalyzeLastDays are functions to calculate and estimate power co
 /home/pi/wittypi/syncTime.sh 
 /home/pi/MonitorStation/monitor.sh
 - place WittyPi.py (a python library for wittypi) into wittypi folder. Look here: https://github.com/marl2en/wittypi4python
-- 
+
 ![IMG_6013](https://user-images.githubusercontent.com/74545075/110316453-0c0b6100-800b-11eb-89da-db5f9a44bfba.jpg)
 
+
+- Via telegram you get some nice pics and status information. 
+(sorry wrong spelling)
+
+![battery](https://user-images.githubusercontent.com/74545075/110317042-dca92400-800b-11eb-9ba4-3b8a85fface9.png)
+
+Here is a plot of battery voltage over 5 periods. The x-axis are number of measurements (every minute over one hour = 60 values per period)
+Y-axis is actual battery voltage. 
+The red dotted lines are shutdown periods of 23 or 59 hours. Voltage drops like a stone under standby period of 59 hours because of no solar power production and still consumption of 25mA all the time.  Fossil energy from power grid is needed to save this battery. 
