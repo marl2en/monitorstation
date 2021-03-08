@@ -19,3 +19,5 @@ AnalyzeData and AnalyzeLastDays are functions to calculate and estimate power co
 /home/pi/wittypi/syncTime.sh 
 /home/pi/MonitorStation/monitor.sh
 - place WittyPi.py (a python library for wittypi) into wittypi folder. Look here: https://github.com/marl2en/wittypi4python
+![IMG_6013](https://user-images.githubusercontent.com/74545075/110316453-0c0b6100-800b-11eb-89da-db5f9a44bfba.jpg)
+
