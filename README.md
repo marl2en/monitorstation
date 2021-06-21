@@ -31,3 +31,6 @@ AnalyzeData and AnalyzeLastDays are functions to calculate and estimate power co
 Here is a plot of battery voltage over 5 periods. The x-axis are number of measurements (every minute over one hour = 60 values per period)
 Y-axis is actual battery voltage. 
 The red dotted lines are shutdown periods of 23 or 59 hours. Voltage drops like a stone under standby period of 59 hours because of no solar power production and still consumption of 25mA all the time.  Fossil energy from power grid is needed to save this battery. 
+
+
+!!! For more information look at the pdf file !!!
